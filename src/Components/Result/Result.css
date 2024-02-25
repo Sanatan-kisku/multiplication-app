@@ -1,0 +1,70 @@
+/* Result.css */
+
+.result-section {
+  margin-top: 30px;
+}
+
+.result-section h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #553f9a;
+}
+
+.result-section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.result-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.result-section li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.result-section button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #553f9a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.result-section button:hover {
+  background-color: #402b6e;
+}
+
+/* Styling for correct and wrong answers */
+.multiplier label input.correct {
+  background-color: #dffff2;
+  border-color: #00d397;
+}
+
+.multiplier label input.wrong {
+  background-color: #ffebeb;
+  border-color: #ff4a4a;
+}
+
+/* Result.css */
+
+.answer {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.correct-answer {
+  color: #008000; /* Green color for correct answers */
+}
+
+.wrong-answer {
+  color: #ff0000; /* Red color for incorrect answers */
+}
